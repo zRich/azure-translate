@@ -1,0 +1,3 @@
+TRANSLATOR_TEXT_SUBSCRIPTION_KEY = your_key
+TRANSLATOR_TEXT_ENDPOINT = https://api.cognitive.microsofttranslator.com
+TRANSLATOR_TEXT_REGION_AKA_LOCATION = your_service_region
