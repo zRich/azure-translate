@@ -6,13 +6,13 @@ require('dotenv').config()
 
 const fs = require('fs');
 
-let key = process.env.TRANSLATOR_TEXT__KEY;
+let key = process.env.TRANSLATOR_TEXT_SUBSCRIPTION_KEY;
 
 let endpoint = process.env.TRANSLATOR_TEXT_ENDPOINT;
 
 // location, also known as region.
 // required if you're using a multi-service or regional (not global) resource. It can be found in the Azure portal on the Keys and Endpoint page.
-let location = process.env.TRANSLATOR_TEXT_REGION;
+let location = process.env.TRANSLATOR_TEXT_REGION_AKA_LOCATION;
 
 const filename = process.argv[2]
 
